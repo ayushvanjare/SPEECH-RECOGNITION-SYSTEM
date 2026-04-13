@@ -79,19 +79,20 @@ recognizer = sr.Recognizer()
 
 with sr.Microphone() as source:
 
-    print("Speak something...")
+  print("Speak something...")
 
-    audio = recognizer.listen(source)
+  audio = recognizer.listen(source)
 
 try:
 
-    text = recognizer.recognize_google(audio)
+  text = recognizer.recognize_google(audio)
 
-    print("You said:", text)
+  print("You said:", text)
 
 except:
     
-    print("Error recognizing speech")
+  print("Error recognizing speech")
+
 
 ▶️ Usage
 
