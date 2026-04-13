@@ -29,6 +29,7 @@ It captures audio from the microphone and processes it using Google’s Speech R
 
 ## 📁 Project Structure
 📦 Speech-Recognition
+
 ┣ 📜 Task_2.ipynb
 
 ┣ 📜 audio.wav
