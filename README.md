@@ -58,7 +58,9 @@ pip install pyaudio
 
 5.Output is displayed on the screen
 
-💻 Code Example
+###💻 Code Example
+
+
 import speech_recognition as sr
 
 recognizer = sr.Recognizer()
